@@ -240,6 +240,31 @@ input[type=button].blue {
   font-size: 24px;
   color: #f9e42e;
   font-family: 'Open+Sans', sans-serif;
-  padding-left: 40px;
   padding-top: 20px;
 }
+
+
+.footer {
+  background-color: #121212;
+  text-align: center;
+  height: 100%;
+}
+
+.social {
+  padding: 50px;
+
+}
+
+.copyright {
+  font-size: 9px;
+  color: white;
+  font-weight: 200;
+  padding-bottom: 50px;
+}
+
+
+
+
+
+
+
