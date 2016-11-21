@@ -44,14 +44,13 @@ Developer @GA in NYC
 /******************************************
 /* BASE STYLES
 /*******************************************/
+@import url(https://www.google.com/fonts#UsePlace:use/Collection:Open+Sans);
 
 body {
      color: #000;
      font-size: 12px;
      line-height: 1.4;
-     font-family: Helvetica, Arial, sans-serif;
-     background: url(../images/header_bg.jpg) no-repeat center top rgb(134,141,157);
-      background-size: cover;
+     font-family: 'Open+Sans', sans-serif;
 }
 
 
@@ -60,10 +59,11 @@ body {
 /*******************************************/
 
 /* Center the container */
-#container {
+.container {
   width: 100%;
   margin: auto;
   height: 500px;
+  display: block;
 
 }
 
@@ -80,5 +80,166 @@ footer {
 /*******************************************/
 
 
+/******************************************
+/* HERO IMAGE STYLES
+/*******************************************/
+
+.hero {
+  background:     
+  /* top, transparent */ 
+    linear-gradient(
+      rgba(3, 50, 80, 0.3), 
+      rgba(3, 50, 80, 0.4)
+    ),
+    /* bottom, image */
+    url(../images/header_bg.jpg);
+  background-size: cover;
+}
+
+.logo {
+  font-weight: 900;
+  font-size: 24px;
+  color: white;
+  font-family: 'Open+Sans', sans-serif;
+  padding-left: 40px;
+  padding-top: 20px;
+}
+
+h1 {
+  font-weight: 400;
+  font-size: 24px;
+  color: white;
+  font-family: 'Open+Sans', sans-serif;
+  padding-top: 100px;
+  text-align: center;
+  padding-bottom: 30px;
+ }
+
+input[type=button].yellow {
+  border: none;
+  border-radius: 5px;
+  font-family: Arial;
+  color: #033048;
+  font-size: 20px;
+  padding: 10px 50px 10px 50px;
+  text-decoration: none;
+  background-color: #f9e42e;
+  cursor: pointer;
+  margin: 4px 2px;
+  font: 14px;
+  font-weight: 600;
+}
+
+.button{
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+
+}
+
+/******************************************
+/* Bullets
+/*******************************************/
+
+.bullet {
+  background-color: #f0efef;
+  height: 100%;
+  padding-bottom: 50px;
+}
+
+.list-width{
+  width: 50%;
+}
+h2 {
+  color: #033048;
+  font-weight: 600;
+  font-size: 20px;
+  padding-left: 40px;
+  padding-top: 50px;
+}
+
+.list {
+  font-size: 13px;
+  padding-left: 40px;
+  padding-top: 15px;
+  font-weight: 200;
+  color: #606161;
+}
+
+ul {
+  font-size: 13px;
+  padding-left: 60px;
+  font-weight: 200;
+  color: #606161;
+}
+
+li {
+  margin: 5px;
+}
 
 
+/******************************************
+/* Quote
+/*******************************************/
+
+.quote {
+  background: url(../images/testimonial_bg.jpg);
+  background-size: cover;
+  height: 20%;
+}
+
+
+.quotetext {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  height: 50%;
+  color: white;
+  font-style: oblique;
+  font-size: 18px;
+  text-align: center;
+  width: 50%;
+  margin: auto;
+  font-weight: 100;
+}
+
+.name {
+  font-weight: 600;
+}
+
+/******************************************
+/* Button
+/*******************************************/
+
+input[type=button].blue {
+  border: none;
+  border-radius: 5px;
+  font-family: Arial;
+  color: white;
+  font-size: 20px;
+  padding: 10px 50px 10px 50px;
+  text-decoration: none;
+  background-color: #033048;
+  cursor: pointer;
+  margin: 4px 2px;
+  font: 14px;
+  font-weight: 600;
+}
+
+.button-background {
+  background-color: #f9e42e;
+  height: 100%;
+}
+
+
+/******************************************
+/* Footer
+/*******************************************/
+
+.yellow-logo {
+  font-weight: 900;
+  font-size: 24px;
+  color: #f9e42e;
+  font-family: 'Open+Sans', sans-serif;
+  padding-left: 40px;
+  padding-top: 20px;
+}
