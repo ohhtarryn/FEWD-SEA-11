@@ -93,6 +93,11 @@ h2{
   font-weight: semibold;
 }
 
+h3{
+  font-size: 24px;
+  font-weight: bolder;
+}
+
 .logo{
   float: left;
 }
@@ -124,6 +129,7 @@ li.nav{
 .alignleft{
   width: 66%;
   float: left;
+  display: inline-block;
 }
 
 .alignright{
@@ -131,8 +137,13 @@ li.nav{
   float: right;
 }
 
-.image {
-  width: 50%;
+img {
+    width: 100%;
+    height: auto;
 }
+
+
+
+
 
 
