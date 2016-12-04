@@ -89,8 +89,10 @@ h1{
 }
 
 h2{
-  font-size: 40px;
+  font-size: 32px;
   font-weight: semibold;
+  color: #01214C;
+  line-height: 38px;
 }
 
 h3{
@@ -124,6 +126,7 @@ li.nav{
   padding: 40px;
   padding-left: 80px;
   padding-right: 80px;
+  background-color: #F2F6F5;
 }
 
 .alignleft{
@@ -140,8 +143,69 @@ li.nav{
 img {
     width: 100%;
     height: auto;
+    padding-top: 15px;
+    padding-bottom: 15px;
 }
 
+.lrgletter{
+  float: left;
+  font-size: 40px;
+  line-height: 30px;
+  padding-top: 4px;
+  padding-right: 8px;
+  padding-left: 3px;
+  font-weight: 600;
+}
+
+.paragraph{
+  color: #606161;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: lighter;
+  padding-bottom: 40px;
+}
+
+.linktoarticle{
+  float: right;
+  font-weight: 400;
+}
+
+a {
+  color: #01214C;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+hr.rule{
+  border-top: 1px solid #8c8b8b;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+/******************************************
+/* Aside
+/*******************************************/
+
+aside {
+  color: #01214C;
+}
+
+.categories {
+  padding-bottom: 20px;
+}
+
+.links{
+  font-size: 16px;
+  font-weight: lighter;
+  padding-left: 5px;
+  padding-top: 10px;
+}
+
+p.about {
+  font-size: 16px;
+  font-weight: lighter;
+  padding-top: 10px;
+}
 
 
 
