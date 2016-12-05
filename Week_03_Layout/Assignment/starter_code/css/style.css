@@ -228,10 +228,6 @@ input[type=button].blue {
   margin: 20px auto;
 }
 
-.button{
-    margin: 0 auto;
-}
-
 .button-background {
   background-color: #f9e42e;
   height: 100%;
